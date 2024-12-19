@@ -528,3 +528,14 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
   background-size: cover;
   background-image: url('./img/christmas-18.webp');
 }
+
+.swiper.portfolioSwiper.w-full.px-4.md\:px-0.mx-auto.flex.max-w-7xl.swiper-initialized.swiper-horizontal.swiper-backface-hidden .swiperInner::before {
+  content: '';
+  position: absolute;
+  bottom: -115px;
+  right: 0px;
+  width: 60px;
+  height: 113px;
+  background-size: cover;
+  background-image: url('./img/christmas-1.webp');
+}

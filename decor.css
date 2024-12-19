@@ -510,10 +510,21 @@ a.-m-1\.5.p-1\.5 {
 a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-sm.font-semibold.max-md\:py-2.py-3.px-4.ring-2.ring-white.bg-white\/20.hover\:ring-gray-400.duration-300.backdrop-blur-md.shadow-sm.shadow-white\/50::before {
   content: '';
   position: absolute;
-  bottom: -96px;
-  right: 39px;
+  bottom: -115px;
+  right: 0px;
   width: 60px;
   height: 113px;
   background-size: cover;
   background-image: url('./img/christmas-20.webp');
+}
+
+.swiper-slide.group\/svc.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active::before {
+  content: '';
+  position: absolute;
+  bottom: -115px;
+  right: 0px;
+  width: 60px;
+  height: 113px;
+  background-size: cover;
+  background-image: url('./img/christmas-18.webp');
 }

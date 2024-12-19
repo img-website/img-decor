@@ -554,3 +554,15 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
   background-size: cover;
   background-image: url('./img/christmas-3.webp');
 }
+
+.group.relative.bg-yellow-700.py-6.md\:py-8.lg\:py-16.select-nonee .mx-auto.max-w-7xl.px-6.lg\:px-8.w-full.relative::before {
+  content: '';
+  position: absolute;
+  top: -74px;
+  left: 32px;
+  width: 58px;
+  z-index: 1000;
+  bottom: -40px;
+  background-size: cover;
+  background-image: url('./img/christmas-11.webp');
+}

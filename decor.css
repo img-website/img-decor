@@ -491,3 +491,17 @@ a.-m-1\.5.p-1\.5 {
   position: relative;
 }
 
+.relative.z-10.overflow-hidden.\*\:rounded-xl.\[transform\:rotateY\(180deg\)\].group-\[\]\/flip\:\[transform\:rotateY\(0deg\)\].\[\&\~\*\]\:\[\&\:has\(\.mask\)\]\:lg\:hidden {
+  position: relative;
+}
+.relative.z-10.overflow-hidden.\*\:rounded-xl.\[transform\:rotateY\(180deg\)\].group-\[\]\/flip\:\[transform\:rotateY\(0deg\)\].\[\&\~\*\]\:\[\&\:has\(\.mask\)\]\:lg\:hidden::before {
+  content: '';
+  position: absolute;
+  top: -9px;
+  left: -5px;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  rotate: -21deg;
+  background-image: url('./img/christmas-2.gif');
+}

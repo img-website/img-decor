@@ -476,7 +476,11 @@
   }
 
 
-.-m-1\.5.p-1\.5::before {
-    background-image: url('./img/christmas-9.gif');
+a.-m-1\.5.p-1\.5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right:0;
+  background-image: url('./img/christmas-9.gif');
 }
 

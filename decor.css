@@ -558,11 +558,32 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
 .group.relative.bg-yellow-700.py-6.md\:py-8.lg\:py-16.select-nonee .mx-auto.max-w-7xl.px-6.lg\:px-8.w-full.relative::before {
   content: '';
   position: absolute;
-  top: -74px;
-  left: 32px;
+  right: 0px;
   width: 58px;
   z-index: 1000;
-  bottom: -40px;
+  bottom: -176px;
+  height: 113px;
   background-size: cover;
   background-image: url('./img/christmas-11.webp');
+}
+
+@media (max-width:767px) {
+  a.-m-1\.5.p-1\.5::before {
+    top: -5px;
+    left: -4px;
+    width: 45px;
+    height: 45px;
+  }
+  .swiper.servicesSwiper.text-white.swiper-fade .swiper-slide.group\/svc.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active::before {
+    zoom: 0.4;
+  }
+  .swiper.portfolioSwiper.w-full.px-4.md\:px-0.mx-auto.flex.max-w-7xl.swiper-initialized.swiper-horizontal.swiper-backface-hidden .swiperInner::before {
+    zoom: 0.7;
+  }
+  .relative.overflow-hidde.rounded-2xl.sm\:rounded-3xl.flex.gap-x-20.p-10.items-center::before {
+    top: -35px;
+    left: 32px;
+    width: 42px;
+    bottom: -13px;
+  }
 }

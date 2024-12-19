@@ -546,12 +546,11 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
 .relative.overflow-hidde.rounded-2xl.sm\:rounded-3xl.flex.gap-x-20.p-10.items-center::before {
   content: '';
   position: absolute;
-  top: -9px;
-  left: -10px;
-  width: 120px;
+  top: -74px;
+  left: 32px;
+  width: 58px;
   z-index: 1000;
-  rotate: 90deg;
-  height: 120px;
+  bottom: -40px;
   background-size: cover;
   background-image: url('./img/christmas-3.webp');
 }

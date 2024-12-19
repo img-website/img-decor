@@ -479,8 +479,15 @@
 a.-m-1\.5.p-1\.5::before {
   content: '';
   position: absolute;
-  top: 0;
-  right:0;
+  top: -9px;
+  left: -5px;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  rotate: -21deg;
   background-image: url('./img/christmas-9.gif');
+}
+a.-m-1\.5.p-1\.5 {
+  position: relative;
 }
 

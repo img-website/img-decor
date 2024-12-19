@@ -521,10 +521,11 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
 .swiper-slide.group\/svc.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active::before {
   content: '';
   position: absolute;
-  bottom: -115px;
-  right: 0px;
-  width: 60px;
-  height: 113px;
+  bottom: -2px;
+  right: 19px;
+  width: 150px;
+  z-index: 1;
+  height: 165px;
   background-size: cover;
   background-image: url('./img/christmas-18.webp');
 }

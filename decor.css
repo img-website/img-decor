@@ -580,10 +580,16 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
   .swiper.portfolioSwiper.w-full.px-4.md\:px-0.mx-auto.flex.max-w-7xl.swiper-initialized.swiper-horizontal.swiper-backface-hidden .swiperInner::before {
     zoom: 0.7;
   }
+  .group.relative.bg-yellow-700.py-6.md\:py-8.lg\:py-16.select-nonee .mx-auto.max-w-7xl.px-6.lg\:px-8.w-full.relative::before {
+    right: 19px;
+    width: 50px;
+    bottom: -121px;
+    height: 98px;
+  }
   .relative.overflow-hidde.rounded-2xl.sm\:rounded-3xl.flex.gap-x-20.p-10.items-center::before {
     top: -35px;
     left: 32px;
-    width: 42px;
+    width: 47px;
     bottom: -13px;
   }
 }

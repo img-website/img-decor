@@ -518,7 +518,7 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
   background-image: url('./img/christmas-20.webp');
 }
 
-.swiper-slide.group\/svc.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active::before {
+.swiper.servicesSwiper.text-white.swiper-fade .swiper-slide.group\/svc.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active::before {
   content: '';
   position: absolute;
   bottom: -2px;

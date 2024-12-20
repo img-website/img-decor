@@ -570,10 +570,10 @@ a.inline-flex.justify-center.rounded-full.rounded-br-none.max-md\:text-xs.text-s
 div#fantasyModal .relative.z-10.w-full.my-auto.max-w-5xl.sm\:mx-0::before {
   content: '';
   position: absolute;
-  right: 0px;
+  left: 0px;
   width: 58px;
   z-index: 1000;
-  bottom: -176px;
+  bottom: 0;
   height: 113px;
   background-size: cover;
   background-image: url('./img/santaopen.webp');

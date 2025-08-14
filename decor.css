@@ -4,3 +4,6 @@ header nav .flex.lg\:flex-1 > a {
 header nav .flex.lg\:flex-1 > a img {
   opacity: 0 !important;
 }
+.heroSection .swiper-wrapper .swiper-slide .\!container.flex.flex-wrap.relative.z-10.grow .md\:w-5\/12.w-full.flex.flex-col .w-full.xl\:text-3xl.lg\:text-2xl.text-xl.font-bold.text-\[\#454444\].text-balance.max-md\:text-center.translate-y-10.opacity-0.group-\[\.swiper-slide-active\]\/slide\:translate-y-0.group-\[\.swiper-slide-active\]\/slide\:opacity-100.delay-700.duration-500.ease-in-out .text-\[\#4E94FF\] {
+  color: #417828;
+}
